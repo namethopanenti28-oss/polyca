@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polycab Wires & Cables</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    /* Header Color for Polycab = Red */
+    header {
+      background-color: #d32f2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .logo {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .about {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .about h2 {
+      text-align: center;
+      color: #d32f2f;
+    }
+
+    .about p {
+      line-height: 1.6;
+      font-size: 16px;
+      text-align: justify;
+    }
+
+    .products {
+      max-width: 900px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    /* Back button same color as header */
+    .back-btn {
+      display: block;
+      width: 200px;
+      margin: 30px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #d32f2f;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .back-btn:hover {
+      background-color: #b71c1c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Polycab Wires & Cables</header>
+
+  <!-- Company Logo -->
+  <img src="polycab.png" alt="Polycab Logo" class="logo">
+
+  <!-- About the Company -->
+  <div class="about">
+    <h2>About Polycab</h2>
+    <p>
+      Polycab India Limited is one of the leading manufacturers of electrical wires and cables in India,
+      offering a wide range of high-quality products for residential, commercial, and industrial applications.
+      Known for durability, safety, and energy efficiency, Polycab products are trusted by electricians,
+      contractors, and industries nationwide.
+    </p>
+  </div>
+
+  <!-- Products / Pictures -->
+  <div class="products">
+    <div class="product-card">
+      <img src="pc.png" alt="Product 1">
+      <p>Power Cables</p>
+    </div>
+    <div class="product-card">
+      <img src="cc.png" alt="Product 2">
+      <p>Control Cables</p>
+    </div>
+    <div class="product-card">
+      <img src="fw.png" alt="Product 3">
+      <p>Flexible Wires</p>
+    </div>
+    <div class="product-card">
+      <img src="iw.png" alt="Product 4">
+      <p>Industrial Wires</p>
+    </div>
+  </div>
+
+  <a href="https://namethopanenti28-oss.github.io/wireandcable/" class="back-btn">⬅ Back to Brands</a>
+
+</body>
+</html>
+
